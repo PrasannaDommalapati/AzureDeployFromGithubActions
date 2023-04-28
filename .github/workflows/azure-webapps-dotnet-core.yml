@@ -33,7 +33,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: AzureDeployFromGithubActions
-          path: AzureDeployFromGithubActions/Artifacts
+          path: ./Artifacts
 
 
   deploy:
